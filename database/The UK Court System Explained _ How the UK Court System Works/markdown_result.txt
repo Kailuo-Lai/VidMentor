@@ -1,0 +1,19 @@
+# Court Structure in the United Kingdom
+## Senior Courts
+### United Kingdom Supreme Court
+#### Final Court of Appeal
+
+## Lower Courts
+### Crown Court
+#### Criminal Law Cases
+
+### Magistrates Court
+#### Criminal Law Cases
+
+### County Courts
+#### Civil Law Matters and Family Law Issues
+
+### Tribunals
+#### Specialist Issues (Tax, Employment, etc.)
+
+Note: The UK Supreme Court is the final Court of Appeal in the United Kingdom, hearing cases for the entire UK in civil law cases and for England, Wales, and Northern Ireland in criminal cases.

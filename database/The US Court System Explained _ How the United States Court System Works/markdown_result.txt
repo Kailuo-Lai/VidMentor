@@ -1,0 +1,46 @@
+# Court Systems in the United States
+## Federal Court System
+### U.S. District Courts
+#### 94 federal judicial districts, including at least one district in each state, the District of Columbia and Puerto Rico
+
+### U.S. Courts of Appeal
+#### 13 circuits, each hearing appeals from the district courts within its borders or from other designated federal courts and administrative agencies
+
+### Special Federal Courts and Entities
+#### Courts with jurisdiction over specific subject matters, such as the U.S. Tax Court, the Patent Trial and Appeal Board, the United States Bankruptcy Courts, and others
+
+## State Court System
+### Trial Courts
+#### Lowest level, typically with a single judge presiding over criminal or civil actions
+
+### State Courts of Appeal
+#### Reviewing decisions from trial courts, with a panel of judges reviewing appeals
+
+### State Supreme Courts
+#### Highest court for appeals, overseeing the court system
+
+## Relationship Between Federal and State Courts
+### Federalism
+#### Sharing of powers between the federal government and the states, contributing to the existence of two separate court systems
+
+### Checks and Balances
+#### Limiting the power of federal or national courts, and allowing state courts to benefit from better local knowledge
+
+### Diversity Jurisdiction
+#### Allowing cases to be heard by a federal court if the plaintiff and defendant are based in different states, to avoid local bias
+
+## United States Supreme Court
+### Highest Court in the U.S.
+#### Based in Washington, D.C., with nine justices appointed by the President of the United States
+
+### Jurisdiction
+#### Only agreeing to hear or certify selected cases, typically from the federal or state court system
+
+### Original Jurisdiction
+#### Hearing certain cases immediately, without going through the state or federal courts first, such as lawsuits between two or more states and cases involving ambassadors and public ministers
+
+### Appellate Jurisdiction
+#### Hearing cases on appeal, on almost any other case that involves a point of constitutional and or federal law
+
+### Judicial Review
+#### The ability of the court to declare a legislative or executive act in violation of the Constitution, established in the case of Marbury v. Madison in 1803

@@ -1,0 +1,22 @@
+# Civil Law vs Criminal Law
+## Key Differences
+### Plaintiff and Defendant
+
+* In civil cases, the plaintiff is a private party, such as an individual or a business.
+* In criminal law, the plaintiff is the government or state, acting as the prosecution.
+* The defendant is a private party in both civil and criminal cases.
+
+### Burden of Proof
+
+* In civil law, the burden of proof is a preponderance of evidence.
+* In criminal law, the burden of proof is beyond a reasonable doubt.
+
+### Sanctions
+
+* In civil cases, sanctions include damages, injunctions, and equitable remedies.
+* In criminal law, sanctions include incarceration, fines, and penalties.
+
+### Societal Goals
+
+* Civil law focuses on compensation, deterrence of future misconduct, and punishment.
+* Criminal law focuses on specific and general deterrence, punishment, and signalling and expressive functions.

@@ -1,0 +1,30 @@
+# Case Briefs
+## What is a Case Brief?
+### A summary and analysis of a court opinion
+
+## Case Caption
+### The caption usually tells you the last names of the person who brought the lawsuit and the person who is being sued
+
+## Legal Citation
+### Letters and numbers that tell you the name of the court that decided the case
+
+## Judge's Name
+### The name of the judge who wrote the opinion or part of the opinion
+
+## Procedural History
+### Indicates whether the case has been decided already by one or more courts
+
+## Facts
+### A summary of the facts of the case
+
+## Issue
+### The legal issue or issues that the facts of the case present and that need to be answered
+
+## Reasoning
+### An application of the applicable rules to the facts and then an appropriate conclusion
+
+## Holding
+### The answer to the legal issue, stating what the court decided or ruled
+
+## Concurring and Dissenting Opinions
+### Separate opinions offering a different approach, explaining a vote in favor of the winning or losing side

@@ -1,0 +1,39 @@
+# Stare Decisis and Common Law
+## Principle of Stare Decisis
+### Definition and Importance
+
+Stare decisis is a fundamental principle in common law, derived from the Latin phrase "stand-on decided cases". It means that once a decision has been made, it should be left decided.
+
+## Types of Stare Decisis
+### Vertical Stare Decisis
+#### Following Superior Court Precedents
+
+Courts are obliged to follow the precedents of superior courts.
+
+### Horizontal Stare Decisis
+#### Following Own Prior Decisions
+
+Courts should follow their own prior decisions.
+
+## Application of Stare Decisis
+### In the UK and US
+
+The stare decisis principle applies in both the UK and the US, with some differences in its application.
+
+### In the US
+
+* All courts are bound to follow the rulings of the Supreme Court as the highest court in the country.
+* Decisions by the Court of Appeals are binding for lower courts in their districts or circuits.
+* State courts are bound by Supreme Court precedents, but not by federal court precedents.
+
+## Exceptions to Stare Decisis
+### Departures from Precedent
+
+The stare decisis principle is not absolute, and the US Supreme Court has developed principles that allow departures from precedent.
+
+### Reasons for Departure
+#### Unworkable and Irrelevant Doctrine
+#### Confusing Line of Cases
+#### Changing Facts and Society
+
+Departures from precedent are justified in instances where a specific doctrine has become unworkable and irrelevant, or where it has become needlessly obscured by a confusing line of cases.

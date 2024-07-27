@@ -1,0 +1,15 @@
+Here is the summary of the key points in markdown format:
+
+# Jurisdiction
+## Types of Jurisdiction
+### Subject Matter Jurisdiction
+#### Definition: Whether a court has jurisdiction over the subject matter of a case
+
+### Personal Jurisdiction
+#### Definition: Whether a court has jurisdiction over a specific person or organization as the defendant in a case
+#### Guiding Principles: Protect defendants from the burden of facing litigation in an unlimited number of possibly remote jurisdictions, and prevent states from infringing on the sovereignty of other states
+
+### In Rem Jurisdiction
+#### Definition: Whether a court has the power to decide cases concerning a specific property
+
+Let me know if you'd like me to clarify or expand on any of these points!

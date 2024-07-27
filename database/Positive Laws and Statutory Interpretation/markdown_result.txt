@@ -1,0 +1,21 @@
+# Positive Law
+## Definition and Sources
+### Primary Sources
+* Federal Constitution
+* State Constitutions
+* Statutes
+* Regulations
+* Local Ordinances
+
+### Secondary Sources
+* Restatements (e.g. Uniform Commercial Code, Restatement of Torts)
+* Books, Treatises, and Articles
+
+## Deriving the Law
+### Methods of Statutory Interpretation
+* Reading the text and deriving the law's plain meaning
+* Looking at a law's legislative history and intent
+* Considering public policy
+* Looking for precedents (previous decided cases)
+
+Note: The video discusses the two main sources of law, positive law and common law, and how positive law is derived from primary and secondary sources. It also explains the methods of statutory interpretation used by courts to understand how a law should apply to a specific context.
