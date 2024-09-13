@@ -7,9 +7,6 @@ import os
 import re
 import threading
 
-os.environ['CUDA_VISIBLE_DEVICES'] = "3"
-
-
 class StoreDataEmb:
     def __init__(self,bge_model: BGEModel, args):
         self.bge_model = bge_model
