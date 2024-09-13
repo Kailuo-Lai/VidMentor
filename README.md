@@ -96,3 +96,4 @@ We are grateful for the following awesome projects
 <a href="https://github.com/Kailuo-Lai/VidMentor/graphs/contributors">
   <img src="https://contrib.rocks/image?repo=Kailuo-Lai/VidMentor" />
 </a>
+
