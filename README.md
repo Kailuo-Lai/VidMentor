@@ -90,3 +90,9 @@ We are grateful for the following awesome projects
 -   [bge-base-en-v1.5](https://huggingface.co/BAAI/bge-base-en-v1.5): A general embedding model created by BAAI
 -   [paraphrase-multilingual-MiniLM-L12-v2](https://huggingface.co/sentence-transformers/paraphrase-multilingual-MiniLM-L12-v2): A multilingual text embedding
 -   [xlm-roberta_punctuation_fullstop_truecase](https://huggingface.co/1-800-BAD-CODE/xlm-roberta_punctuation_fullstop_truecase): An xlm-roberta model fine-tuned to restore punctuation
+
+
+## 🤝 Contributors
+<a href="https://github.com/Kailuo-Lai/VidMentor/graphs/contributors">
+  <img src="https://contrib.rocks/image?repo=Kailuo-Lai/VidMentor" />
+</a>
