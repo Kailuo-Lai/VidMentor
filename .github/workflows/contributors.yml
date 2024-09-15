@@ -1,0 +1,17 @@
+name: Update Contributors
+
+on:
+  push:
+    branches:
+      - main
+
+jobs:
+  update-contributors:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v2
+      - name: Update contributors
+        uses: all-contributors/all-contributors-cli-action@v1
+        with:
+          file: README.md
