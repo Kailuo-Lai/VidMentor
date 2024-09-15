@@ -1,18 +1,40 @@
 name: Update Contributors
 
 on:
+  schedule:
+    - cron: '0 0 * * 1' # Runs every Monday at 00:00 UTC
   push:
-    branches:
-      - main
+    paths:
+      - 'README.md'
 
 jobs:
   update-contributors:
     runs-on: ubuntu-latest
-    steps:
-      - name: Checkout repository
-        uses: actions/checkout@v2
 
-      - name: Update contributors
-        uses: jakepartusch/all-contributors-action@v3
+    steps:
+      - name: Checkout Repository
+        uses: actions/checkout@v3
+
+      - name: Set Up Node.js
+        uses: actions/setup-node@v3
         with:
-          repo-token: ${{ secrets.GITHUB_TOKEN }}
+          node-version: '16'
+
+      - name: Install All Contributors CLI
+        run: npm install -g all-contributors-cli
+
+      - name: Add Contributors
+        run: all-contributors add $(git log --format='%aN <%aE>' | sort -u | awk '{print $1}' | sed 's/<//;s/>//') 
+
+      - name: Generate Contributors Section
+        run: all-contributors generate
+
+      - name: Commit and Push Changes
+        run: |
+          git config --local user.name "GitHub Action"
+          git config --local user.email "action@github.com"
+          git add README.md
+          git commit -m "chore: update contributors list" || echo "No changes to commit"
+          git push
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
