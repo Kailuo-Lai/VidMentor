@@ -1,22 +1,20 @@
-name: Update Contributors
+name: All Contributors
 
 on:
-  schedule:
-    - cron: '0 0 * * 1' # Runs every Monday at 00:00 UTC
   push:
     paths:
-      - 'README.md'
       - '.all-contributorsrc'
+      - 'README.md'
+  pull_request:
+    types: [opened, synchronize, reopened]
 
 jobs:
-  update-contributors:
+  add-contributors:
     runs-on: ubuntu-latest
-
     steps:
-      - name: Checkout Repository
-        uses: actions/checkout@v3
+      - uses: actions/checkout@v3
 
-      - name: Set Up Node.js
+      - name: Setup Node.js
         uses: actions/setup-node@v3
         with:
           node-version: '16'
@@ -24,25 +22,14 @@ jobs:
       - name: Install All Contributors CLI
         run: npm install -g all-contributors-cli
 
-      - name: Add Contributors
-        run: |
-          # Extract unique GitHub usernames from commit history
-          CONTRIBUTORS=$(git log --format='%aN <%aE>' | sort -u | awk '{print $1}' | sed 's/<//;s/>//')
-          
-          for contributor in $CONTRIBUTORS; do
-            # Add each contributor with the 'code' contribution type
-            all-contributors add $contributor code || echo "Contributor $contributor already exists."
-          done
-
-      - name: Generate Contributors Section
+      - name: Run All Contributors
         run: all-contributors generate
 
-      - name: Commit and Push Changes
+      - name: Commit files
         run: |
-          git config --local user.name "GitHub Action"
-          git config --local user.email "action@github.com"
+          git config --local user.name "github-actions[bot]"
+          git config --local user.email "github-actions[bot]@users.noreply.github.com"
           git add README.md .all-contributorsrc
-          git commit -m "chore: update contributors list" || echo "No changes to commit"
+          git commit -m "docs: update contributors [skip ci]" || echo "No changes to commit"
           git push
-        env:
-          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+
