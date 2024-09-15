@@ -13,7 +13,6 @@ jobs:
         uses: actions/checkout@v2
 
       - name: Update contributors
-        uses: all-contributors/all-contributors-cli-action@v3
+        uses: jakepartusch/all-contributors-action@v3
         with:
-          file: README.md
-
+          repo-token: ${{ secrets.GITHUB_TOKEN }}
