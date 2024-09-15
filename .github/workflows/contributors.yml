@@ -6,6 +6,7 @@ on:
   push:
     paths:
       - 'README.md'
+      - '.all-contributorsrc'
 
 jobs:
   update-contributors:
@@ -24,7 +25,14 @@ jobs:
         run: npm install -g all-contributors-cli
 
       - name: Add Contributors
-        run: all-contributors add $(git log --format='%aN <%aE>' | sort -u | awk '{print $1}' | sed 's/<//;s/>//') 
+        run: |
+          # Extract unique GitHub usernames from commit history
+          CONTRIBUTORS=$(git log --format='%aN <%aE>' | sort -u | awk '{print $1}' | sed 's/<//;s/>//')
+          
+          for contributor in $CONTRIBUTORS; do
+            # Add each contributor with the 'code' contribution type
+            all-contributors add $contributor code || echo "Contributor $contributor already exists."
+          done
 
       - name: Generate Contributors Section
         run: all-contributors generate
@@ -33,7 +41,7 @@ jobs:
         run: |
           git config --local user.name "GitHub Action"
           git config --local user.email "action@github.com"
-          git add README.md
+          git add README.md .all-contributorsrc
           git commit -m "chore: update contributors list" || echo "No changes to commit"
           git push
         env:
