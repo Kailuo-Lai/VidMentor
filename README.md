@@ -92,8 +92,4 @@ We are grateful for the following awesome projects
 -   [xlm-roberta_punctuation_fullstop_truecase](https://huggingface.co/1-800-BAD-CODE/xlm-roberta_punctuation_fullstop_truecase): An xlm-roberta model fine-tuned to restore punctuation
 
 
-## 🤝 Contributors
-<a href="https://github.com/Kailuo-Lai/VidMentor/graphs/contributors">
-  <img src="https://contrib.rocks/image?repo=Kailuo-Lai/VidMentor" />
-</a>
 
