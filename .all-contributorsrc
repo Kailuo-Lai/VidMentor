@@ -9,7 +9,17 @@
   "imageSize": 100,
   "commit": true,
   "commitConvention": "none",
-  "contributors": [],
+  "contributors": [
+    {
+      "login": "SufeyifanWu",
+      "name": "Yifan Wu",
+      "avatar_url": "https://avatars.githubusercontent.com/u/100206666?v=4",
+      "profile": "https://github.com/SufeyifanWu",
+      "contributions": [
+        "code"
+      ]
+    }
+  ],
   "contributorsPerLine": 7,
   "linkToUsage": true
 }
